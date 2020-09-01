@@ -21,20 +21,26 @@ body {
 
 .card {
   background: whitesmoke;
-  width: 40%;
-  height: 40%;
+  width: 45%;
+  height: 45%;
+  /* width: 40vw;
+  height: 40vw; */
   display: flex;
   align-items: center;
   flex-direction: column;
   border-radius: 25px;
   padding: 2%;
   box-shadow: 10px 10px;
+  /* align-items: flex-end; */
 }
 
 .heading {
   display: flex;
   align-items: center;
   height: 582px;
+  font-family: "Source Code Pro", monospace;
+  /* font-size: 3vw; */
+  font-style: normal;
 }
 
 .button {
@@ -106,9 +112,24 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 625px) {
   .card {
-    width: 80%;
-    height: 30%;
+    width: 50vw;
+    height: 40vw;
+  }
+  .heading {
+    font-size: 3vw;
   }
 }
+/* 
+@media screen and (max-width: 600px) {
+  .app {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("./images/stoic6.jpg");
+    background-size: cover;
+    display: block;
+    flex-wrap: wrap;
+  }
+  .card{
+  } */
+/* } */
